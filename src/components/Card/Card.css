@@ -1,0 +1,63 @@
+.card{
+
+    position: relative;
+    cursor: pointer;
+    transition: ease;
+    /* transition-duration: 50ms; */
+    transition-delay: 10ms;
+    transition-duration: 20ms;
+    margin-bottom: 10px;
+   
+}
+
+
+
+
+.card:hover{
+
+    transform: translateY(-10px);
+    /* transform: translateX(2px); */
+    /* transition: ease-in-out; */
+    transition: ease;
+    transition-delay: 10ms;
+    transition-duration: 20ms;
+
+}
+
+
+
+.card h1{
+
+    position: absolute;
+    bottom: 25%;
+    left: 4%;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: white;
+
+}
+
+
+.card p{
+
+    color: white;
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: 600;
+    bottom: 15%;
+    left: 7%;
+}
+
+.card button{
+
+    color: white;
+    position: absolute;
+    font-size: 0.8em;
+    background-color: green;
+    bottom: 4%;
+    left: 7%;
+    border-radius: 10px;
+    padding: 5px 5px;
+
+
+}

@@ -1,0 +1,15 @@
+.card-wrapper{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+
+}
+
+
+.image{
+
+    margin-bottom: 100px;
+
+}
